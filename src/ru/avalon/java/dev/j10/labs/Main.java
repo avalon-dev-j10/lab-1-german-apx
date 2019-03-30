@@ -11,7 +11,7 @@ public class Main {
         Passport passIvanov = new Passport("Иван", "Иванов");
         passIvanov.setPatronymic("Иванович");
         Passport passSmith = new Passport("John", "Smith");
-        passIvanov.setMiddleName("Edvard");
+        passSmith.setMiddleName("Edvard");
 
         Address addressIvanov = new Address("Россия","Московская","Москва","Ленина",5,60);
         Address addressSmith = new Address("UK","-","London","Baker",221, 0);
@@ -19,14 +19,14 @@ public class Main {
         Person ivanov = new Person(passIvanov,addressIvanov);
         Person smith = new Person(passSmith,addressSmith);
 
-        String fullNameIvan = ivanov.getFullName();
+        String fullNameIvanov = ivanov.getFullName();
         String fullNameSmith = smith.getFullName();
 
-        String addressIvanF = ivanov.getAddress();
+        String addressIvanFull = ivanov.getAddress();
         String addressSmithF = smith.getAddress();
 
-        System.out.println(fullNameIvan);
-        System.out.println(addressIvanF);
+        System.out.println(fullNameIvanov);
+        System.out.println(addressIvanFull);
         System.out.println(fullNameSmith);
         System.out.println(addressSmithF);
 

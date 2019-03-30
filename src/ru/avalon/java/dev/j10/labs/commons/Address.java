@@ -29,19 +29,19 @@ public class Address {
 
     // getters + setters
 
-    public String getCountry()  { return country; }
-    public String getDistrict() { return district; }
-    public String getCity()     { return city; }
-    public String getStreet()   { return street; }
-    public int getNumHome()     { return numHome; }
-    public int getFlat()        { return flat; }
-
-    public void setCountry(String country)     { this.country = country; }
-    public void setDistrict(String district)   { this.district = district; }
-    public void setCity(String city)           { this.city = city; }
-    public void setStreet(String street)       { this.street = street; }
-    public void setNumHome(int numHome)        { this.numHome = numHome; }
-    public void setFlat(int flat)              { this.flat = flat; }
+//    public String getCountry()  { return country; }
+//    public String getDistrict() { return district; }
+//    public String getCity()     { return city; }
+//    public String getStreet()   { return street; }
+//    public int getNumHome()     { return numHome; }
+//    public int getFlat()        { return flat; }
+//
+//    public void setCountry(String country)     { this.country = country; }
+//    public void setDistrict(String district)   { this.district = district; }
+//    public void setCity(String city)           { this.city = city; }
+//    public void setStreet(String street)       { this.street = street; }
+//    public void setNumHome(int numHome)        { this.numHome = numHome; }
+//    public void setFlat(int flat)              { this.flat = flat; }
 
     public String getFullAddress() {
 

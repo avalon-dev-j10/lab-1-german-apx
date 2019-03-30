@@ -7,16 +7,16 @@ public class Address {
     private String district;
     private String city;
     private String street;
-    private int numHome;
-    private int flat;
+    private String numHome;
+    private String flat;
 
     // конструктор класса
     public Address (String country,
             String district,
             String city,
             String street,
-            int numHome,
-            int flat) {
+            String numHome,
+            String flat) {
 
                 this.country = country;
                 this.district = district;
@@ -26,22 +26,6 @@ public class Address {
                 this.flat = flat;
 
     }
-
-    // getters + setters
-
-//    public String getCountry()  { return country; }
-//    public String getDistrict() { return district; }
-//    public String getCity()     { return city; }
-//    public String getStreet()   { return street; }
-//    public int getNumHome()     { return numHome; }
-//    public int getFlat()        { return flat; }
-//
-//    public void setCountry(String country)     { this.country = country; }
-//    public void setDistrict(String district)   { this.district = district; }
-//    public void setCity(String city)           { this.city = city; }
-//    public void setStreet(String street)       { this.street = street; }
-//    public void setNumHome(int numHome)        { this.numHome = numHome; }
-//    public void setFlat(int flat)              { this.flat = flat; }
 
     public String getFullAddress() {
 

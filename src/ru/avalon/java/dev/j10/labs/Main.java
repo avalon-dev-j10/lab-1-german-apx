@@ -1,7 +1,8 @@
 package ru.avalon.java.dev.j10.labs;
 
-import ru.avalon.java.dev.j10.labs.models.*;
-import ru.avalon.java.dev.j10.labs.commons.*;
+import ru.avalon.java.dev.j10.labs.commons.Address;
+import ru.avalon.java.dev.j10.labs.models.Passport;
+import ru.avalon.java.dev.j10.labs.models.Person;
 
 public class Main {
 
@@ -13,8 +14,8 @@ public class Main {
         Passport passSmith = new Passport("John", "Smith");
         passSmith.setMiddleName("Edvard");
 
-        Address addressIvanov = new Address("Россия","Московская","Москва","Ленина",5,60);
-        Address addressSmith = new Address("UK","-","London","Baker",221, 0);
+        Address addressIvanov = new Address("Россия","Московская","Москва","Ленина","5","60");
+        Address addressSmith = new Address("UK","-","London","Baker","221", "B");
 
         Person ivanov = new Person(passIvanov,addressIvanov);
         Person smith = new Person(passSmith,addressSmith);

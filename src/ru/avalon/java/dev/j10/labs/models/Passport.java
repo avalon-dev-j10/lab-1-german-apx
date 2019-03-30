@@ -26,6 +26,23 @@ public class Passport {
 
         }
 
+//    // имя+фамилия+паспорт конструктор
+//    public Passport(String firstName,
+//                    String lastName,
+//                    int passSerial,
+//                    int passNumber,
+//                    Date birthday,
+//                    Date dateOfIssue,
+//                    String department) {
+//
+//        this.firstName   = firstName  ;
+//        this.lastName    = lastName   ;
+//        this.passSerial  = passSerial ;
+//        this.passNumber  = passNumber ;
+//        this.birthday    = birthday   ;
+//        this.dateOfIssue = dateOfIssue;
+//        this.department  = department ;
+//    }
 
     // метод, который возвращает паспортные данные за вычетом имени/фамилии и адреса
 

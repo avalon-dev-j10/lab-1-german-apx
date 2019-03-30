@@ -15,6 +15,8 @@ public class Passport {
     private String department;
     private Date birthday = new Date();
 
+
+
     // имя+фамилия конструктор
     public Passport(String firstName,
                     String lastName) {

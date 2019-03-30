@@ -26,23 +26,6 @@ public class Passport {
 
         }
 
-//    // имя+фамилия+паспорт конструктор
-//    public Passport(String firstName,
-//                    String lastName,
-//                    int passSerial,
-//                    int passNumber,
-//                    Date birthday,
-//                    Date dateOfIssue,
-//                    String department) {
-//
-//        this.firstName   = firstName  ;
-//        this.lastName    = lastName   ;
-//        this.passSerial  = passSerial ;
-//        this.passNumber  = passNumber ;
-//        this.birthday    = birthday   ;
-//        this.dateOfIssue = dateOfIssue;
-//        this.department  = department ;
-//    }
 
     // метод, который возвращает паспортные данные за вычетом имени/фамилии и адреса
 
@@ -54,23 +37,6 @@ public class Passport {
     }
 
     //getters + setters
-//    public int getPassSerial()      { return passSerial;}
-//    public int getPassNumber()      { return passNumber;}
-//    public String getFirstName()    { return firstName;}
-//    public String getLastName()     { return lastName;}
-//    public String getPatronymic()   { return patronymic;}
-//    public String getMiddleName()   { return middleName;}
-//    public String getDepartment()   { return department;}
-//    public Date getDateOfIssue()    { return dateOfIssue;}
-//    public Date getBirthday()       { return birthday;}
-//
-//    public void setPassSerial(int assSerial)            { this.passSerial = passSerial; }
-//    public void setPassNumber(int passNumber)           { this.passNumber = passNumber; }
-//    public void setFirstName(String firstName)          { this.firstName = firstName; }
-//    public void setLastName(String lastName)            { this.lastName = lastName; }
-//    public void setDepartment(String departmen)         { this.department = department; }
-//    public void setDateOfIssue(Date dateOfIssue)        { this.dateOfIssue = dateOfIssue; }
-//    public void setBirthday(Date birthday)              { this.birthday = birthday; }
 
     public void setPatronymic(String patronymic)        { this.patronymic = patronymic; }
     public void setMiddleName(String middleName)        { this.middleName = middleName; }

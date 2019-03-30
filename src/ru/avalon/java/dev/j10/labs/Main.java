@@ -30,6 +30,8 @@ public class Main {
         System.out.println(fullNameSmith);
         System.out.println(addressSmithF);
 
+        System.out.println();
+
     }
 
 }
